@@ -8,8 +8,28 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 driver = webdriver.Chrome(options=chrome_options)
 
 list_of_fiis = [
-  'IRDM11', 'KNCR11', 'MXRF11', 'VISC11', 'XPML11', 'HGLG11', 'BTLG11',
-  'VILG11', 'KNRI11', 'ALZR11', 'HGRU11'
+  'IRDM11', 
+  'KNCR11', 
+  'KNSC11', 
+  'HGCR11', 
+   
+  'XPML11', 
+  'HGBS11', 
+  
+  'HGLG11', 
+  'BTLG11',
+  'VILG11',
+  
+  'KNRI11', 
+  'ALZR11', 
+  'HGRU11',
+  
+  'VISC11',
+  'HSML11',
+  'HLOG11',
+  'LVBI11',
+  'HSLG11',
+  'TRXF11'
 ]
 
 print('TICKER\tDIV. YIELD\tP/VP\tVAR. 30 DIAS\tVAR. 12 MESES')

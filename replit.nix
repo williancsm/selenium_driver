@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.geckodriver
     pkgs.strace
     pkgs.python310Full
     pkgs.replitPackages.prybar-python310
@@ -23,3 +24,4 @@
     PRYBAR_PYTHON_BIN = "${pkgs.replitPackages.prybar-python310}/bin/prybar-python310";
   };
 }
+
